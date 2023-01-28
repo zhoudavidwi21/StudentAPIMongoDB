@@ -1,0 +1,60 @@
+[debug] [2023-01-28T19:10:10.043Z] ----------------------------------------------------------------------
+[debug] [2023-01-28T19:10:10.044Z] Command:       C:\Users\David\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\David\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2023-01-28T19:10:10.045Z] CLI Version:   11.21.0
+[debug] [2023-01-28T19:10:10.045Z] Platform:      win32
+[debug] [2023-01-28T19:10:10.045Z] Node Version:  v16.16.0
+[debug] [2023-01-28T19:10:10.045Z] Time:          Sat Jan 28 2023 20:10:10 GMT+0100 (Central European Standard Time)
+[debug] [2023-01-28T19:10:10.045Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-28T19:10:10.050Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-28T19:10:10.051Z] > authorizing via signed-in user (david281100@hotmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\David\IdeaProjects\demo
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2023-01-28T19:12:47.817Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2023-01-28T19:12:47.817Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"firebase projects:create","name":"firebase init"}
+[debug] [2023-01-28T19:12:48.133Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2023-01-28T19:12:48.134Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [Cannot create domain prefixed projects]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"Cannot create domain prefixed projects"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2023-01-28T19:12:48.227Z] FirebaseError: HTTP Error: 400, field [project_id] has issue [Cannot create domain prefixed projects]
+    at responseToError (C:\Users\David\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\David\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\apiv2.js:288:77)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
+[debug] [2023-01-28T19:12:54.388Z] ----------------------------------------------------------------------
+[debug] [2023-01-28T19:12:54.390Z] Command:       C:\Users\David\DOWNLO~1\firebase-tools-instant-win.exe C:\Users\David\.cache\firebase\tools\lib\node_modules\firebase-tools\lib\bin\firebase init
+[debug] [2023-01-28T19:12:54.390Z] CLI Version:   11.21.0
+[debug] [2023-01-28T19:12:54.390Z] Platform:      win32
+[debug] [2023-01-28T19:12:54.390Z] Node Version:  v16.16.0
+[debug] [2023-01-28T19:12:54.391Z] Time:          Sat Jan 28 2023 20:12:54 GMT+0100 (Central European Standard Time)
+[debug] [2023-01-28T19:12:54.391Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-01-28T19:12:54.396Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-01-28T19:12:54.396Z] > authorizing via signed-in user (david281100@hotmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\David\IdeaProjects\demo
+
